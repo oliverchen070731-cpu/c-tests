@@ -3,7 +3,7 @@
 int searchArray(int Numbers[], int size, int myNum);
 int main()
 {
-    int Numbers[] = {2,8,9,13,7,5};
+    int Numbers[] = {2,8,9,13,7,5,48};
     int size = sizeof(Numbers)/sizeof(Numbers[0]);
     int index;
     int myNum;
