@@ -34,9 +34,9 @@ void hanoi(int n, char x, char y, char z)
         move(x,z);
     }
     else{
-        hanoi(n-1,x,z,y);
+        hanoi(n-1, x, z, y);
         move(x,z);
-        hanoi(n-1,y,x,z);
+        hanoi(n-1, y, x, z);
     }
 }
 
